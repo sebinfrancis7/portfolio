@@ -6,7 +6,7 @@ body {
   margin: 0;
   background-color: #333333;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -38,7 +38,7 @@ code {
 }
 
 .heading-text{
-  padding: 4rem 2rem 3rem 2rem;
+  padding: 4rem 2rem 1.5rem 2rem;
 
   u {
     padding-bottom:10px;
@@ -54,7 +54,7 @@ code {
 .icons{
   text-decoration: none;
   color: white;
-  padding: 2rem;
+  padding: 1rem 2rem 1.5rem 2rem;
   &:hover{
     color: #CF9FFF;
   }
@@ -76,13 +76,14 @@ code {
 #homepage{
 
   .animoji-image-div{
-    padding: 1rem;
+    padding: .5rem;
 
     @media screen and(max-width: $md){
       height: 13rem;
       // padding-bottom: 0;
     }
     img{
+      height: 13rem;
       @media screen and(max-width: $md){
         height: 80%;
       }
@@ -105,11 +106,18 @@ code {
   .homepage-text{
     font-family: cursive;
     letter-spacing: 0.1em;
-    @media screen and(max-width: $md){
+    padding: 2rem 1rem 2rem 1rem;
+    @media screen and(max-width: $sm) and (max-height: $sm){
+      letter-spacing: normal;
+      font-size: medium;
+      padding: 1.5rem;
+    }
+    @media screen and(max-width: $md) and (max-height: $md){
+      padding: 1.5rem 1rem .5rem 1rem ;
       letter-spacing: normal;
       font-size: medium;
     }
-  
+
     .typewritter{
       font-weight:700;
       color: #9370DB;
