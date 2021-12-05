@@ -33,7 +33,7 @@ code {
   border-radius: 50px;
 
   @media screen and(max-width: $md){
-    height: 80vh;
+    height: 79vh;
   }
 }
 
@@ -112,8 +112,8 @@ code {
       font-size: medium;
       padding: 1.5rem;
     }
-    @media screen and(max-width: $md) and (max-height: $md){
-      padding: 1.5rem 1rem .5rem 1rem ;
+    @media screen and(max-width: $md) {
+      padding: 4.2rem 1rem .5rem 1rem ;
       letter-spacing: normal;
       font-size: medium;
     }
@@ -152,7 +152,13 @@ code {
 
 #resume{
   .resume-box{
-    padding: 0rem 1rem 1rem .5rem;
+    padding: 0rem 1rem .5rem 1rem;
+    @media screen and(max-width: $sm){
+      padding: 4rem 0rem 7rem 0rem;
+    }
+    @media screen and(max-width: $sm) and (max-height:$md){
+      padding-bottom: 4rem;
+    }
   }
   .icon{
     padding-left: 2rem;
