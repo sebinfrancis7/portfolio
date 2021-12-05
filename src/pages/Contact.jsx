@@ -4,7 +4,7 @@ function Contact() {
     return (
         <div id="contact" className="container outer-content">
             <div className="inner-content">
-                <p className="heading-text text-center">ＣＯＮＴＡＣＴ</p>
+                <p className="heading-text text-center"><u>ＣＯＮＴＡＣＴ</u></p>
             </div>
         </div>
     )

@@ -5,13 +5,13 @@ import animoji from '../assets/images/animoji.png';
 function HomePage() {
     return (
         <div id="homepage" className="container outer-content">
-            <div className="inner-content row">
+            <div className="inner-content">
                 <div className="justify-content-center animoji-image-div">
                     <div className="jusify-content-center text-center animoji-image">
                         <img src={animoji} className="img-fluid center-block d-block mx-auto" alt="sebin" />
                     </div>
                 </div>
-                <div className="text-center px-auto">
+                <div className="text-center px-auto icon-div">
                     <a href="https://www.linkedin.com/in/sebinfrancis" target="blank"> <i className="fab fa-lg fa-linkedin-in icons" aria-hidden="true" ></i></a>
                     <a href="https://github.com/sebinfrancis7" target="blank"><i className="fab fa-lg fa-github  icons" aria-hidden="true" ></i></a>
                     <a href="#homepage"><i className="fab fa-lg fa-instagram  icons" aria-hidden="true"></i></a>

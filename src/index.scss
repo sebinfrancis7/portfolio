@@ -39,6 +39,12 @@ code {
 
 .heading-text{
   padding: 4rem 2rem 3rem 2rem;
+
+  u {
+    padding-bottom:10px;
+    text-decoration:none;
+    border-bottom:3px solid #c9c9c9; 
+  }
   @media screen and(max-width: $md){
     font-size: medium;
     padding: 2rem 2rem 1rem 2rem;
@@ -62,6 +68,11 @@ code {
   }
 }
 
+.highlight{
+  color: #9370DB ;
+  font-weight: bold;
+}
+
 #homepage{
 
   .animoji-image-div{
@@ -69,7 +80,7 @@ code {
 
     @media screen and(max-width: $md){
       height: 13rem;
-      padding-bottom: 0;
+      // padding-bottom: 0;
     }
     img{
       @media screen and(max-width: $md){
@@ -81,9 +92,15 @@ code {
     padding: 1rem;
     @media screen and(max-width: $md){
       height: 15rem;
-      padding-bottom: 0;
+      padding-bottom: .5rem;
     }
     
+  }
+  .icon-div{
+    padding: 1.5rem 2rem 3rem 2rem;
+    @media screen and(max-width: $md){
+      padding: 1rem;
+    }
   }
   .homepage-text{
     font-family: cursive;
@@ -117,8 +134,9 @@ code {
 
 #about{
   .aboutme{
-    padding: 0rem 4rem 4rem 4rem;
+    padding: 4rem 4rem 4rem 4rem;
     @media screen and(max-width: $md){
+      padding: 3rem;
       font-size:small;
     }
   }
@@ -150,6 +168,11 @@ code {
   }
 
   p{
+
+    &:hover{
+      color: #CF9FFF;
+      cursor: pointer;
+    }
     @media screen and(max-width: $md){
       font-size: small;
     }
