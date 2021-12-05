@@ -98,7 +98,7 @@ code {
     
   }
   .icon-div{
-    padding: 1.5rem 2rem 3rem 2rem;
+    padding: 1.5rem 2rem 2rem 2rem;
     @media screen and(max-width: $md){
       padding: 1rem;
     }
@@ -106,7 +106,7 @@ code {
   .homepage-text{
     font-family: cursive;
     letter-spacing: 0.1em;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     @media screen and(max-width: $sm) and (max-height: $sm){
       letter-spacing: normal;
       font-size: medium;
@@ -151,6 +151,9 @@ code {
 }
 
 #resume{
+  .resume-box{
+    padding: 0rem 1rem 1rem .5rem;
+  }
   .icon{
     padding-left: 2rem;
     text-decoration: none;
