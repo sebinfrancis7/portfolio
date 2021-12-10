@@ -12,10 +12,11 @@ function HomePage() {
                     </div>
                 </div>
                 <div className="text-center px-auto icon-div">
-                    <a href="https://www.linkedin.com/in/sebinfrancis" target="blank"> <i className="fab fa-lg fa-linkedin-in icons" aria-hidden="true" ></i></a>
-                    <a href="https://github.com/sebinfrancis7" target="blank"><i className="fab fa-lg fa-github  icons" aria-hidden="true" ></i></a>
-                    <a href="#homepage"><i className="fab fa-lg fa-instagram  icons" aria-hidden="true"></i></a>
-                    <a href="mailto:sebin.k.francis07@gmail.com"><i className="far fa-lg fa-envelope  icons" aria-hidden="true"></i></a>
+                    <a href="https://www.linkedin.com/in/sebinfrancis" target="_blank" rel="noopener noreferrer"><span></span><i className="fab fa-lg fa-linkedin-in icons" aria-hidden="true" ></i></a>
+                    <a href="https://github.com/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span></span><i className="fab fa-lg fa-github  icons" aria-hidden="true" ></i></a>
+                    <a href="https://medium.com/@sebinfrancis7" target="_blank" rel="noopener noreferrer"><span></span><i className="fab fa-lg fa-medium  icons" aria-hidden="true" ></i></a>
+                    <a href="#homepage"><span></span><i className="fab fa-lg fa-instagram  icons" aria-hidden="true"></i></a>
+                    <a href="mailto:sebin.k.francis07@gmail.com"><span></span><i className="far fa-lg fa-envelope  icons" aria-hidden="true"></i></a>
                 </div>
                 <div className="text-center homepage-text p-auto flex-grow-1">
                     <p>Hii !  👋</p>
