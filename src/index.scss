@@ -4,6 +4,11 @@ $sm: 400px;
 $md: 800px;
 $lg: 1200px;
 
+html {
+  overflow: -moz-scrollbars-none;
+  scrollbar-width: none;
+}
+
 body {
   margin: 0;
   background-color: #333333;
@@ -37,6 +42,26 @@ code {
   @media screen and(max-width: $md){
     height: 79vh;
   }
+}
+
+#progressBarContainer {
+  position: fixed;
+  z-index: 10;
+  background: rgba(255,255,255,0.05);
+  width: 100%;
+  top: 5rem;
+  left: 0;
+  height: 0.3rem;
+}
+
+
+#progressBar {
+  background: rgb(244,58,237);
+  background: linear-gradient(56deg, rgba(244,58,237,1) 0%, rgba(179,0,249,0.8604575619310224) 100%);  
+  transform-origin: top left;
+  transform: scale(0,0);
+  opacity: 0;
+  height: 0.2rem;
 }
 
 .heading-text{
