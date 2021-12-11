@@ -52,6 +52,9 @@ code {
   top: 4.8rem;
   left: 0;
   height: 0.3rem;
+  @media screen and(max-width: $md){
+    top: 4.5rem;
+  }
 }
 
 
