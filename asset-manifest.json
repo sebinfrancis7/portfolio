@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.effe4cf0.chunk.css",
-    "main.js": "/portfolio/static/js/main.6c5cf090.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6c5cf090.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "main.css": "/portfolio/static/css/main.6d935abd.chunk.css",
+    "main.js": "/portfolio/static/js/main.c8b8a466.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.c8b8a466.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.85a95fab.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.85a95fab.js.map",
     "static/css/2.fbb149ea.chunk.css": "/portfolio/static/css/2.fbb149ea.chunk.css",
-    "static/js/2.584a51ef.chunk.js": "/portfolio/static/js/2.584a51ef.chunk.js",
-    "static/js/2.584a51ef.chunk.js.map": "/portfolio/static/js/2.584a51ef.chunk.js.map",
+    "static/js/2.e6e6ae00.chunk.js": "/portfolio/static/js/2.e6e6ae00.chunk.js",
+    "static/js/2.e6e6ae00.chunk.js.map": "/portfolio/static/js/2.e6e6ae00.chunk.js.map",
+    "static/js/3.688a9bb9.chunk.js": "/portfolio/static/js/3.688a9bb9.chunk.js",
+    "static/js/3.688a9bb9.chunk.js.map": "/portfolio/static/js/3.688a9bb9.chunk.js.map",
+    "static/js/4.c3420ae4.chunk.js": "/portfolio/static/js/4.c3420ae4.chunk.js",
+    "static/js/4.c3420ae4.chunk.js.map": "/portfolio/static/js/4.c3420ae4.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.fbb149ea.chunk.css.map": "/portfolio/static/css/2.fbb149ea.chunk.css.map",
-    "static/css/main.effe4cf0.chunk.css.map": "/portfolio/static/css/main.effe4cf0.chunk.css.map",
-    "static/js/2.584a51ef.chunk.js.LICENSE.txt": "/portfolio/static/js/2.584a51ef.chunk.js.LICENSE.txt",
+    "static/css/main.6d935abd.chunk.css.map": "/portfolio/static/css/main.6d935abd.chunk.css.map",
+    "static/js/2.e6e6ae00.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e6e6ae00.chunk.js.LICENSE.txt",
     "static/media/SEBIN FRANCIS KANNAMPUZHA - Resume.0aa4060c.pdf": "/portfolio/static/media/SEBIN FRANCIS KANNAMPUZHA - Resume.0aa4060c.pdf",
-    "static/media/animoji.41fd475e.png": "/portfolio/static/media/animoji.41fd475e.png"
+    "static/media/animoji.d08eadb9.png": "/portfolio/static/media/animoji.d08eadb9.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bf68c44.js",
+    "static/js/runtime-main.85a95fab.js",
     "static/css/2.fbb149ea.chunk.css",
-    "static/js/2.584a51ef.chunk.js",
-    "static/css/main.effe4cf0.chunk.css",
-    "static/js/main.6c5cf090.chunk.js"
+    "static/js/2.e6e6ae00.chunk.js",
+    "static/css/main.6d935abd.chunk.css",
+    "static/js/main.c8b8a466.chunk.js"
   ]
 }
