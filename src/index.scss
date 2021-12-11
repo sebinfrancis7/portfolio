@@ -133,10 +133,11 @@ code {
     a{
       padding: auto;
     }
+    span{
+      display: none;
+    }
   }
-  span{
-    display: none;
-  }
+
   .homepage-text{
     font-family: 'Titillium Web', sans-serif;
     letter-spacing: 0.1rem;
