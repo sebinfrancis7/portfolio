@@ -85,8 +85,10 @@ code {
   text-decoration: none;
   color: white;
   padding: 1rem 2rem 1.5rem 2rem;
+  transition: .5s;
   &:hover{
     color: #CF9FFF;
+    transform: scale(1.5);
   }
   @media screen and(max-width: $md){
     font-size:large;
@@ -203,13 +205,27 @@ code {
     @media screen and(max-width: $sm) and (max-height:$md){
       padding-bottom: 4rem;
     }
+
+    .main-resume{
+      -webkit-transition: all 1.5s ease;
+      -moz-transition: all 1.5s ease; 
+      -o-transition: all 1.5s ease; 
+      -ms-transition: all 1.5s ease; 
+      transition:all 1.5s ease;
+
+      &:hover{
+        transform: scale(1.1,1.05);
+      }
+    }
   }
   .icon{
     padding-left: 2rem;
     text-decoration: none;
     color: white;
+    transition: .5s;
     &:hover{
       color: #CF9FFF;
+      transform: scale(1.5);
     }
     @media screen and(max-width: $md){
       font-size: large;
