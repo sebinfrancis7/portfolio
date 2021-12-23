@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 function carouselIndicator(image, i) {
     return (
         i === 0 ?
@@ -13,11 +14,11 @@ function imageCarousel(image, i) {
     return (
         i === 0 ?
             <div className="carousel-item active" key={i}>
-                <img className="d-block w-100" style={{ height: "200px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
             </div>
             :
             <div className="carousel-item" key={i}>
-                <img className="d-block w-100" style={{ height: "200px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
             </div>
     );
 }
@@ -26,7 +27,7 @@ function ProjectCard(props) {
     var project = props.project;
     var imgs = project.images;
     return (
-        <div className="card project-card mx-auto">
+        <div className="card project-card mx-3" style={{ borderRadius: "10px" }}>
             <div id={"carouselExampleIndicators" + project.id} className="carousel slide" data-bs-ride="carousel" >
                 <div className="carousel-indicators">
                     {imgs.map(carouselIndicator)}
@@ -44,17 +45,17 @@ function ProjectCard(props) {
                 </a>
             </div>
             <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p className="card-title project-title">{project.title}</p>
+                <p className="card-text project-description">{project.description}</p>
             </div>
             {/* <ul className="list-group list-group-flush">
                 <li className="list-group-item">An item</li>
                 <li className="list-group-item">A second item</li>
                 <li className="list-group-item">A third item</li>
             </ul> */}
-            <div className="card-body mx-auto">
-                <a href="#" className="btn btn-primary mx-2">Repo Link</a>
-                <a href="#" className="btn btn-primary mx-2">Demo</a>
+            <div className="card-body mx-auto" style={{ color: "#CF9FFF" }}>
+                <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Repo Link</a>
+                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Demo</a>
             </div>
         </div>
 

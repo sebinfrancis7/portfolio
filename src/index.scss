@@ -234,21 +234,45 @@ code {
 }
 #projects{
   .project-card{
-    color: hsl(0, 0%, 20%);
-    width: 35%;
-    height: 90%;
-    @media screen and(max-width: 320px) and (max-height:650px) {
-      width: 90%;
+    color: hsl(0, 0%, 20%); 
+    width: 90%;
+    font-size: medium;
+    @media screen and (max-width:400px)and(min-width: 320px) {
       font-size: small;
     }
-    @media screen and(max-width: $md) and (max-height:850px){
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
       margin-top: 3rem;
-      width: 90%;
-     } 
+     }
+     .project-title{
+       font-weight: bold;
+       font-size: large;
+       @media screen and (max-width:400px)and(min-width: 320px) {
+        font-size: medium;
+      }
+     }
+     .project-description{
+       height: 100px;
+       @media screen and (max-width:400px)and(min-width: 320px) {
+        height: 60px;
+      }
+     }
+     .button{
+      transition:all 1s ease;
+      background-color: #9370DB;
+      border-color: #c9c9c9;
+
+       &:hover{
+         background-color:rgb(133, 87, 133) ;
+        transform: scale(1.2);
+       }
+     }
   }
-  .project-row{
-    display: flex;
-  }
+}
+.project-row::-webkit-scrollbar {
+  display: none;
 }
 #skills{
   .skills-container{

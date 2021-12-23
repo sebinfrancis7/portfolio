@@ -1,4 +1,3 @@
-import React from 'react';
 import EventNestImage1 from "../assets/images/Eventnest/img-1.png";
 import EventNestImage2 from "../assets/images/Eventnest/img-2.png";
 import EventNestImage3 from "../assets/images/Eventnest/img-3.png";
@@ -31,36 +30,37 @@ const projects = [
             EventNestImage6,
             EventNestImage7
         ],
-        description: "ioqo iiqoijwdoij qoiwodijqowij ",
-        repoLink: "oiqoiwqjdoij qw",
-        demoLink: "poijqwoidjowiqjdoiwj"
+        description: "Full Stack Event Management System using MERN stack with Razorpay integration. Separately hosted Nodejs Server for backend and API services",
+        repoLink: "https://github.com/sebinfrancis7/EventNest-frontend",
+        demoLink: "https://sebinfrancis7.github.io/EventNest-frontend/"
     },
     {
         id: 2,
-        title: "ffeaefef",
+        title: "Attendance Management System",
         images: [
             AttnImage1,
             AttnImage2,
             AttnImage3
         ],
-        description: "",
-        repoLink: "",
-        demoLink: ""
+        description: "Attendance Management System for RGIT college",
+        repoLink: "https://github.com/sebinfrancis7/rgit_attn_server",
+        demoLink: "https://attn-server.herokuapp.com/users/login"
     },
-    // {
-    //     id: 3,
-    //     title: "",
-    //     images: [
-    //         ToDoImage1,
-    //         ToDoImage2,
-    //         ToDoImage3,
-    //         ToDoImage4,
-    //         ToDoImage5
-    //     ],
-    //     description: "",
-    //     repoLink: "",
-    //     demoLink: ""
-    // },
+    {
+        id: 3,
+        title: "To-Do App",
+        images: [
+            ToDoImage1,
+            ToDoImage2,
+            ToDoImage3,
+            ToDoImage4,
+            ToDoImage5
+        ],
+        description: "A simple Notes/To-Do app in flutter with Firebase Authentication. Users and add and remove tasks. ",
+        repoLink: "https://github.com/sebinfrancis7/To-do-Notes-app",
+        demoLink: "#projects"
+    },
+
     // {
     //     id: 4,
     //     title: "",
