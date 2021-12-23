@@ -25,9 +25,9 @@ function Navbar() {
                         <li className="nav-item px-3">
                             <a className="nav-link nav-link-custom" href="#resume">Resume</a>
                         </li>
-                        {/* <li className="nav-item px-3">
+                        <li className="nav-item px-3">
                             <a className="nav-link nav-link-custom" href="#projects">Projects</a>
-                        </li> */}
+                        </li>
                         {/* <li className="nav-item px-3">
                             <a className="nav-link nav-link-custom" href="#contact">Contact</a>
                         </li> */}

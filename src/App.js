@@ -76,9 +76,11 @@ function App() {
                 <Resume />
               </Zoom>
             </Suspense>
-            {/* <Zoom>
-              <Projects />
-            </Zoom> */}
+            <Suspense fallback={<div>Loading...</div>}>
+              <Zoom>
+                <Projects />
+              </Zoom>
+            </Suspense>
             {/* <Zoom>
               <Contact />
             </Zoom> */}
