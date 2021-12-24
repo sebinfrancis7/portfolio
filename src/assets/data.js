@@ -58,7 +58,7 @@ const projects = [
             ToDoImage4,
             ToDoImage5
         ],
-        description: "A simple Notes/To-Do app in flutter with Firebase Authentication. Users and add and remove tasks. ",
+        description: "A simple Notes/To-Do app in flutter with Firebase Authentication. Users can add and remove tasks. ",
         repoLink: "https://github.com/sebinfrancis7/To-do-Notes-app",
         demoLink: ""
     },
