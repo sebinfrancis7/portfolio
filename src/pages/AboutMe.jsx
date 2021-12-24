@@ -4,7 +4,7 @@ function AboutMe() {
     return (
         <div id="about" className="container outer-content">
             <div className="inner-content">
-                <h3 className="heading-text text-center"><u>ＡＢＯＵＴ ＭＥ</u></h3>
+                <p className="heading-text text-center"><u>ＡＢＯＵＴ ＭＥ</u></p>
                 <div className="aboutme py-auto text-center">
                     <p >I am a Final Year <span className="highlight">CSE</span> student from Mumbai, India 🇮🇳</p>
                     <p>My interests include <span className="highlight">software design and development, artificial intelligence, machine learning</span> and <span className="highlight">blockchain</span>.</p>
