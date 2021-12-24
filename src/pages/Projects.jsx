@@ -35,8 +35,10 @@ function Projects() {
         <div id="projects" className="container outer-content">
             <div className="inner-content" >
                 <p className="heading-text text-center" > <u>ＰＲＯＪＥＣＴＳ</u> </p>
-
-                <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={10000} showDots={true}>
+                {/* <div style={{ display: "flex" }}>
+                    {projects.map(project)}
+                </div> */}
+                <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={10000} showDots={true}>
                     {projects.map(project)}
                 </Carousel>
             </div>

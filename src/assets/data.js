@@ -16,6 +16,8 @@ import ToDoImage3 from "../assets/images/ToDo/img-3.jpeg";
 import ToDoImage4 from "../assets/images/ToDo/img-4.jpeg";
 import ToDoImage5 from "../assets/images/ToDo/img-5.jpeg";
 
+import AbsaImage1 from "../assets/images/absa/img-1.png";
+
 const skills = [];
 const projects = [
     {
@@ -58,19 +60,19 @@ const projects = [
         ],
         description: "A simple Notes/To-Do app in flutter with Firebase Authentication. Users and add and remove tasks. ",
         repoLink: "https://github.com/sebinfrancis7/To-do-Notes-app",
-        demoLink: "#projects"
+        demoLink: ""
     },
 
-    // {
-    //     id: 4,
-    //     title: "",
-    //     images: [
-
-    //     ],
-    //     description: "",
-    //     repoLink: "",
-    //     demoLink: ""
-    // }
+    {
+        id: 4,
+        title: "Sentiment Analysis",
+        images: [
+            AbsaImage1
+        ],
+        description: "Aspect Based Sentiment Analysis on Youtube video reviews using absa library",
+        repoLink: "https://github.com/sebinfrancis7/Aspect_based_Sentiment_Analysis_on_Youtube_Reviews",
+        demoLink: ""
+    }
 ];
 
 export { skills, projects };

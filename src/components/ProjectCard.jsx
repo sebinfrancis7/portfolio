@@ -4,9 +4,9 @@ import React from 'react'
 function carouselIndicator(image, i) {
     return (
         i === 0 ?
-            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to={i} className="active" style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i}></button>
+            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} className="active" style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i}></button>
             :
-            <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to={i} style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i} ></button>
+            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i} ></button>
     );
 }
 
@@ -28,18 +28,18 @@ function ProjectCard(props) {
     var imgs = project.images;
     return (
         <div className="card project-card mx-3" style={{ borderRadius: "10px" }}>
-            <div id={"carouselExampleIndicators" + project.id} className="carousel slide" data-bs-ride="carousel" >
+            <div id={"carouselIndicators" + project.id} className="carousel slide" data-bs-ride="carousel" >
                 <div className="carousel-indicators">
                     {imgs.map(carouselIndicator)}
                 </div>
                 <div className="carousel-inner">
                     {imgs.map(imageCarousel)}
                 </div>
-                <a className="carousel-control-prev" href={"#carouselExampleIndicators" + project.id} role="button" data-bs-slide="prev">
+                <a className="carousel-control-prev" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
                     <span className="sr-only">Previous</span>
                 </a>
-                <a className="carousel-control-next" href={"#carouselExampleIndicators" + project.id} role="button" data-bs-slide="next">
+                <a className="carousel-control-next" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="next">
                     <span className="carousel-control-next-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
                     <span className="sr-only" style={{ color: "#CF9FFF" }}>Next</span>
                 </a>
@@ -54,8 +54,18 @@ function ProjectCard(props) {
                 <li className="list-group-item">A third item</li>
             </ul> */}
             <div className="card-body mx-auto" style={{ color: "#CF9FFF" }}>
-                <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Repo Link</a>
-                <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Demo</a>
+                {
+                    project.repoLink === "" ?
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled" >Repo Link</a>
+                        :
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Repo Link</a>
+                }
+                {
+                    project.demoLink === "" ?
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled" >Demo</a>
+                        :
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Demo</a>
+                }
             </div>
         </div>
 
