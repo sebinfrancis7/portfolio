@@ -1,8 +1,11 @@
-import React from 'react'
-import ProjectCard from '../components/ProjectCard'
-import Carousel from 'react-multi-carousel';
+import React, { Suspense } from 'react'
+// import ProjectCard from '../components/ProjectCard'
+// import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { projects } from '../assets/data'
+import { projects } from '../assets/data';
+
+const ProjectCard = React.lazy(() => import('../components/ProjectCard'));
+const Carousel = React.lazy(() => import('react-multi-carousel'));
 
 const responsive = {
     superLargeDesktop: {
@@ -38,9 +41,11 @@ function Projects() {
                 {/* <div style={{ display: "flex" }}>
                     {projects.map(project)}
                 </div> */}
-                <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={10000} showDots={true}>
-                    {projects.map(project)}
-                </Carousel>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={15000} showDots={true}>
+                        {projects.map(project)}
+                    </Carousel>
+                </Suspense>
             </div>
         </div>
     )

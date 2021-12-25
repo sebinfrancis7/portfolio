@@ -214,7 +214,7 @@ code {
       transition:all 1.5s ease;
 
       &:hover{
-        transform: scale(1.1,1.05);
+        transform: scale(1.05);
       }
     }
   }
@@ -271,14 +271,13 @@ code {
      }
   }
 }
-.project-row::-webkit-scrollbar {
-  display: none;
-}
+
 #skills{
   .skills-container{
     padding: 5rem;
   }
 }
+
 .footer-box{
   color:#c9c9c9;
   margin-top: 2rem;
