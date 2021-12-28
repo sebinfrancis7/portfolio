@@ -42,7 +42,7 @@ function Projects() {
                     {projects.map(project)}
                 </div> */}
                 <Suspense fallback={<div>Loading...</div>}>
-                    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={15000} showDots={true}>
+                    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={20000} showDots={true}>
                         {projects.map(project)}
                     </Carousel>
                 </Suspense>
