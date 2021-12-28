@@ -53,18 +53,18 @@ function ProjectCard(props) {
                 <li className="list-group-item">A second item</li>
                 <li className="list-group-item">A third item</li>
             </ul> */}
-            <div className="card-body mx-auto" style={{ color: "#CF9FFF" }}>
+            <div className="card-body mx-auto card-link">
                 {
                     project.repoLink === "" ?
-                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled" > Repo Link</a>
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled " > Repo Link</a>
                         :
-                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Repo Link</a>
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button " >Repo Link</a>
                 }
                 {
                     project.demoLink === "" ?
-                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled" >Demo</a>
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled " >Demo</a>
                         :
-                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button" >Demo</a>
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button " >Demo</a>
                 }
             </div>
         </div >

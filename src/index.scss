@@ -245,7 +245,7 @@ code {
     and (device-height : 812px) 
     and (-webkit-device-pixel-ratio : 3) {
       margin-top: 3rem;
-     }
+     }  
      .project-title{
        font-weight: bold;
        color: white;
@@ -255,10 +255,17 @@ code {
       }
      }
      .project-description{
-       height: 100px;
+       height: 110px;
        color: #c9c9c9;
        @media screen and (max-width:400px)and(min-width: 320px) {
         height: 60px;
+      }
+     }
+     .card-link{
+      padding-bottom: 2.2rem;
+      color: "#CF9FFF";
+      @media screen and(max-width: $md){
+        padding-bottom: 1.5rem;
       }
      }
      .button{
@@ -266,6 +273,10 @@ code {
       background-color: #9370DB;
       border-color: #c9c9c9;
 
+      @media screen and(max-width: $md){
+        height: 2rem;
+        font-size: small;
+      }
        &:hover{
          background-color:rgb(133, 87, 133) ;
         transform: scale(1.2);
