@@ -1,6 +1,8 @@
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 import animoji from '../assets/images/animoji.png';
+import resumeFile from '../assets/SEBIN FRANCIS KANNAMPUZHA - Resume.pdf'
+
 
 function HomePage() {
     return (
@@ -16,6 +18,7 @@ function HomePage() {
                     <a href="https://github.com/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Github</span><i className="fab fa-lg fa-github  icons" aria-hidden="true" ></i></a>
                     <a href="https://dev.to/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Dev</span><i className="fab fa-lg fa-dev icons" aria-hidden="true" ></i></a>
                     <a href="https://medium.com/@sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Medium</span><i className="fab fa-lg fa-medium  icons" aria-hidden="true" ></i></a>
+                    <a href={resumeFile} download ><span>Resume</span><i className="fas fa-lg fa-file-download icons"> </i></a>
                     {/* <a href="#homepage"><span>Instagram</span><i className="fab fa-lg fa-instagram  icons" aria-hidden="true"></i></a> */}
                     <a href="mailto:sebin.k.francis07@gmail.com"><span>Email</span><i className="far fa-lg fa-envelope  icons" aria-hidden="true"></i></a>
                 </div>
