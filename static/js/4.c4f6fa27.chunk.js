@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[4],{100:function(e,t,o){"use strict";o.r(t);o(1);var s=o(0);t.default=function(){return Object(s.jsx)("footer",{className:" text-center footer-box",style:{backgroundColor:"#333333"},children:Object(s.jsx)("div",{className:"text-center",children:Object(s.jsxs)("p",{children:["s\u1d07\u0299\u026a\u0274 \u0493\u0280\u1d00\u0274\u1d04\u026as | ",(new Date).getFullYear()," "]})})})}}}]);
-//# sourceMappingURL=4.c4f6fa27.chunk.js.map
