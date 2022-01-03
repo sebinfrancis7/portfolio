@@ -9,11 +9,11 @@ import HomePage from './pages/HomePage.jsx';
 import Skills from "./pages/Skills.jsx";
 import Contact from "./pages/Contact.jsx";
 import Projects from "./pages/Projects.jsx";
-// import Footer from "./components/Footer.jsx";
+import Footer from "./components/Footer.jsx";
 
 const AboutMe = React.lazy(() => import('./pages/AboutMe.jsx'));
 // const Resume = React.lazy(() => import('./pages/Resume.jsx'));
-const Footer = React.lazy(() => import('./components/Footer.jsx'));
+// const Footer = React.lazy(() => import('./components/Footer.jsx'));
 
 
 function App() {

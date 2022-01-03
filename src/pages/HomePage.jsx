@@ -14,13 +14,13 @@ function HomePage() {
                     </div>
                 </div>
                 <div className="text-center px-auto icon-div">
-                    <a href="https://www.linkedin.com/in/sebinfrancis" target="_blank" rel="noopener noreferrer"><span>Linkedin</span><i className="fab fa-lg fa-linkedin-in icons" aria-hidden="true" ></i></a>
-                    <a href="https://github.com/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Github</span><i className="fab fa-lg fa-github  icons" aria-hidden="true" ></i></a>
-                    <a href="https://dev.to/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Dev</span><i className="fab fa-lg fa-dev icons" aria-hidden="true" ></i></a>
-                    <a href="https://medium.com/@sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Medium</span><i className="fab fa-lg fa-medium  icons" aria-hidden="true" ></i></a>
-                    <a href={resumeFile} download ><span>Resume</span><i className="fas fa-lg fa-file-download icons"> </i></a>
+                    <a href="https://www.linkedin.com/in/sebinfrancis" target="_blank" rel="noopener noreferrer"><span>Linkedin</span><i className="fab fa-lg fa-linkedin-in icons" aria-hidden="true" title="Linkedin"></i></a>
+                    <a href="https://github.com/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Github</span><i className="fab fa-lg fa-github  icons" aria-hidden="true" title="Github" ></i></a>
+                    <a href="https://dev.to/sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Dev</span><i className="fab fa-lg fa-dev icons" aria-hidden="true" title="Dev" ></i></a>
+                    <a href="https://medium.com/@sebinfrancis7" target="_blank" rel="noopener noreferrer"><span>Medium</span><i className="fab fa-lg fa-medium  icons" aria-hidden="true" title="Medium" ></i></a>
+                    <a href={resumeFile} download ><span>Resume</span><i className="fas fa-lg fa-file-download icons" title="Download Resume"> </i></a>
                     {/* <a href="#homepage"><span>Instagram</span><i className="fab fa-lg fa-instagram  icons" aria-hidden="true"></i></a> */}
-                    <a href="mailto:sebin.k.francis07@gmail.com"><span>Email</span><i className="far fa-lg fa-envelope  icons" aria-hidden="true"></i></a>
+                    <a href="mailto:sebin.k.francis07@gmail.com"><span>Email</span><i className="far fa-lg fa-envelope  icons" aria-hidden="true" title="E-Mail"></i></a>
                 </div>
                 <div className="text-center homepage-text p-auto flex-grow-1">
                     <p>Hii !  👋</p>
