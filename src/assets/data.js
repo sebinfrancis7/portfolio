@@ -20,7 +20,38 @@ import AbsaImage1 from "../assets/images/absa/img-1.webp";
 
 import FacemaskImage1 from "../assets/images/Facemask/img-1.webp";
 
-const skills = [];
+const skills = [
+    {
+        id: 1,
+        name: "Data Structure & Algorithms",
+        percentage: 60
+    },
+    {
+        id: 2,
+        name: "OOPS",
+        percentage: 70
+    },
+    {
+        id: 3,
+        name: "MERN Stack Development",
+        percentage: 60
+    },
+    {
+        id: 4,
+        name: "Machine Learning",
+        percentage: 50
+    },
+    {
+        id: 5,
+        name: "DBMS",
+        percentage: 60
+    },
+    {
+        id: 6,
+        name: "Data Science",
+        percentage: 30
+    },
+];
 const projects = [
     {
         id: 1,

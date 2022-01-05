@@ -6,12 +6,13 @@ import LoadingScreen from 'react-loading-screen';
 import Navbar from "./components/Navbar/Navbar.jsx";
 import HomePage from './pages/HomePage.jsx';
 // import AboutMe from './pages/AboutMe.jsx';
-import Skills from "./pages/Skills.jsx";
+// import Skills from "./pages/Skills.jsx";
 import Contact from "./pages/Contact.jsx";
 import Projects from "./pages/Projects.jsx";
 import Footer from "./components/Footer.jsx";
 
 const AboutMe = React.lazy(() => import('./pages/AboutMe.jsx'));
+const Skills = React.lazy(() => import('./pages/Skills.jsx'));
 // const Resume = React.lazy(() => import('./pages/Resume.jsx'));
 // const Footer = React.lazy(() => import('./components/Footer.jsx'));
 
@@ -68,9 +69,12 @@ function App() {
                 <AboutMe />
               </Zoom>
             </Suspense>
-            {/* <Zoom>
-              <Skills />
-            </Zoom> */}
+            <Suspense fallback={<div>Loading...</div>}>
+              <Zoom>
+                <Skills />
+              </Zoom>
+            </Suspense>
+
             {/* <Suspense fallback={<div>Loading...</div>}>
               <Zoom>
                 <Resume />

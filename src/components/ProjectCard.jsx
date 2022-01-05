@@ -4,9 +4,9 @@ import React from 'react'
 function carouselIndicator(image, i) {
     return (
         i === 0 ?
-            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} className="active" style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i}></button>
+            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} key={i} className="active" style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i}></button>
             :
-            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i} ></button>
+            <button data-bs-target="#carouselIndicators" data-bs-slide-to={i} key={i} style={{ backgroundColor: "#CF9FFF" }} aria-label={"Slide" + i} ></button>
     );
 }
 
@@ -14,11 +14,11 @@ function imageCarousel(image, i) {
     return (
         i === 0 ?
             <div className="carousel-item active" key={i}>
-                <img className="d-block w-100" style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
             </div>
             :
             <div className="carousel-item" key={i}>
-                <img className="d-block w-100" style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
             </div>
     );
 }

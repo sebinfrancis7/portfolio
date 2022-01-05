@@ -290,6 +290,51 @@ code {
 #skills{
   .skills-container{
     padding: 5rem;
+    @media screen and(max-width: $md){
+      padding: 1rem 3rem 0 3rem;
+      font-size: small;
+    }
+    @media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) {
+      padding: 5rem;
+     }  
+  }
+
+  .skill{
+    padding: 1rem 1rem 1rem 1rem ;
+    @media screen and(max-width: $md){
+      padding: .5rem;
+    }
+    .details{
+      width: 100%;
+      display: flex;  
+      justify-content: space-between;
+      margin-bottom: 10px;
+      padding: .5rem 1rem 0 1rem;
+    }
+    .bar{
+      position: relative;
+      border: 2px solid #909090;  
+      border-radius: 20px;
+  
+    }
+    .bar div{
+      position: relative;
+      width: 0;
+      height: 9px;
+      border-radius: 10px;
+      background-color: #A8A8A8;
+    }
+    // #skill-bar{
+    //   animation: html-fill 2s forwards;
+    // }
+    // @keyframes html-fill{
+    //   100%{
+    //     width: 70%;
+    //   }
+    // }
   }
 }
 
