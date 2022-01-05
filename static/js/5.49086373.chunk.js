@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[5],{100:function(s,e,c){"use strict";c.r(e);c(1);var i=c(0);e.default=function(s){var e=s.skill;return Object(i.jsxs)("div",{className:"col-sm-6 skill",children:[Object(i.jsxs)("div",{className:"details",children:[Object(i.jsx)("span",{children:e.name}),Object(i.jsxs)("span",{children:[e.percentage,"%"]})]}),Object(i.jsx)("div",{className:"bar",children:Object(i.jsx)("div",{id:"skill-bar",style:{width:"".concat(e.percentage,"%")}})})]})}}}]);
+//# sourceMappingURL=5.49086373.chunk.js.map
