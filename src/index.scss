@@ -269,17 +269,19 @@ code {
       }
      }
      .button{
-      transition:all 1s ease;
-      background-color: #9370DB;
-      border-color: #c9c9c9;
-
+      transition:all .5s ease;
+      background-color: #A8A8A8;
+      border-color: #909090;
+      color: white;
+      border-radius: 10px;
       @media screen and(max-width: $md){
         height: 2rem;
         font-size: small;
       }
        &:hover{
-         background-color:rgb(133, 87, 133) ;
-        transform: scale(1.2);
+         background-color:#CF9FFF ;
+         color: black;
+        // transform: scale(1.2);
        }
      }
   }

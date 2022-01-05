@@ -27,7 +27,7 @@ function ProjectCard(props) {
     var project = props.project;
     var imgs = project.images;
     return (
-        <div className="card project-card mx-3" style={{ borderRadius: "10px", borderColor: "#CF9FFF", borderWidth: "3px", backgroundColor: "#333333" }}>
+        <div className="card project-card mx-3" style={{ borderRadius: "10px", borderColor: "#989898", borderWidth: "3px", backgroundColor: "#333333" }}>
             <div id={"carouselIndicators" + project.id} className="carousel slide" data-bs-ride="carousel" >
                 <div className="carousel-indicators">
                     {imgs.map(carouselIndicator)}
@@ -56,15 +56,15 @@ function ProjectCard(props) {
             <div className="card-body mx-auto card-link">
                 {
                     project.repoLink === "" ?
-                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled " > Repo Link</a>
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mx-2 button disabled " > Repo Link</a>
                         :
-                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button " >Repo Link</a>
+                        <a href={project.repoLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mx-2 button " >Repo Link</a>
                 }
                 {
                     project.demoLink === "" ?
-                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button disabled " >Demo</a>
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mx-2 button disabled " >Demo</a>
                         :
-                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-primary mx-2 button " >Demo</a>
+                        <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className="btn btn-outline-secondary mx-2 button " >Demo</a>
                 }
             </div>
         </div >
