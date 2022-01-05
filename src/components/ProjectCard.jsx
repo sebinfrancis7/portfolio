@@ -29,22 +29,36 @@ function ProjectCard(props) {
     return (
         <div className="card project-card mx-3" style={{ borderRadius: "10px", borderColor: "#989898", borderWidth: "3px", backgroundColor: "#333333" }}>
             <div id={"carouselIndicators" + project.id} className="carousel slide" data-bs-ride="carousel" >
-                <div className="carousel-indicators">
-                    {imgs.map(carouselIndicator)}
-                </div>
+                {
+                    imgs.length === 1 ?
+                        <span></span>
+                        :
+                        <div className="carousel-indicators">
+                            {imgs.map(carouselIndicator)}
+                        </div>
+                }
+
                 <div className="carousel-inner">
                     {imgs.map(imageCarousel)}
                 </div>
-                <a className="carousel-control-prev" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
-                    <span className="sr-only" style={{ color: "#CF9FFF" }}>Next</span>
-                </a>
+                {
+                    imgs.length === 1 ?
+                        <span></span>
+                        :
+                        <div>
+                            <a className="carousel-control-prev" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="prev">
+                                <span className="carousel-control-prev-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
+                                <span className="sr-only">Previous</span>
+                            </a>
+                            <a className="carousel-control-next" href={"#carouselIndicators" + project.id} role="button" data-bs-slide="next">
+                                <span className="carousel-control-next-icon" aria-hidden="true" style={{ backgroundColor: "#CF9FFF", borderRadius: "10px" }}></span>
+                                <span className="sr-only" style={{ color: "#CF9FFF" }}>Next</span>
+                            </a>
+                        </div>
+                }
+
             </div>
-            <div className="card-body">
+            <div className="card-body" style={{ borderTop: "4px solid #989898", borderRadius: "10px" }}>
                 <p className="card-title project-title">{project.title}</p>
                 <p className="card-text project-description">{project.description}</p>
             </div>
