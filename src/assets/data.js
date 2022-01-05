@@ -18,6 +18,8 @@ import ToDoImage5 from "../assets/images/ToDo/img-5.webp";
 
 import AbsaImage1 from "../assets/images/absa/img-1.webp";
 
+import FacemaskImage1 from "../assets/images/Facemask/img-1.webp";
+
 const skills = [];
 const projects = [
     {
@@ -71,6 +73,17 @@ const projects = [
         ],
         description: "Aspect Based Sentiment Analysis on Youtube video reviews using absa library.",
         repoLink: "https://github.com/sebinfrancis7/Aspect_based_Sentiment_Analysis_on_Youtube_Reviews",
+        demoLink: ""
+    },
+
+    {
+        id: 5,
+        title: "Facemask Detection",
+        images: [
+            FacemaskImage1
+        ],
+        description: "Face mask detection on images in python using keras and tensorflow.",
+        repoLink: "https://github.com/sebinfrancis7/Face-mask-detection",
         demoLink: ""
     }
 ];
