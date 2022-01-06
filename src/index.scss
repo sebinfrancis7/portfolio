@@ -326,6 +326,10 @@ code {
       height: 9px;
       border-radius: 10px;
       background-color: #A8A8A8;
+
+        &:hover{
+          background-color: #9370DB;
+        }
     }
     // #skill-bar{
     //   animation: html-fill 2s forwards;
