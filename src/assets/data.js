@@ -24,7 +24,7 @@ const skills = [
     {
         id: 1,
         name: "Data Structure & Algorithms",
-        percentage: 60
+        percentage: 70
     },
     {
         id: 2,

@@ -304,15 +304,22 @@ code {
 
   .skill{
     padding: 1rem 1rem 1rem 1rem ;
+    letter-spacing: 3px;
+    font-weight:400;
     @media screen and(max-width: $md){
       padding: .5rem;
+      letter-spacing: 1px;
+      font-weight: 200;
+    }
+    .percentage{
+      color:#c9c9c9;
     }
     .details{
       width: 100%;
       display: flex;  
       justify-content: space-between;
       margin-bottom: 10px;
-      padding: .5rem 1rem 0 1rem;
+      padding: .5rem 1rem 0 0rem;
     }
     .bar{
       position: relative;

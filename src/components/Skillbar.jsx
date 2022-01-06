@@ -8,7 +8,7 @@ function Skillbar(props) {
         <div className="col-sm-6 skill">
             <div className="details">
                 <span>{skill.name}</span>
-                <span>{skill.percentage}%</span>
+                <span className="percentage">{skill.percentage}%</span>
             </div>
             <div className="bar">
                 <div id="skill-bar" style={{ width: `${skill.percentage}%` }}></div>
