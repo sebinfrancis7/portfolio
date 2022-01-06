@@ -14,11 +14,11 @@ function imageCarousel(image, i) {
     return (
         i === 0 ?
             <div className="carousel-item active" key={i}>
-                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "7px" }} src={image} alt={i + " slide"} />
             </div>
             :
             <div className="carousel-item" key={i}>
-                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "10px" }} src={image} alt={i + " slide"} />
+                <img className="d-block w-100" key={i} style={{ height: "200px", borderRadius: "7px" }} src={image} alt={i + " slide"} />
             </div>
     );
 }
