@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d8afd120.chunk.css",
-    "main.js": "/portfolio/static/js/main.a711e56d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a711e56d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.24b10907.chunk.css",
+    "main.js": "/portfolio/static/js/main.4c46e7c8.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.4c46e7c8.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.d8fc9725.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.d8fc9725.js.map",
     "static/css/2.0a106155.chunk.css": "/portfolio/static/css/2.0a106155.chunk.css",
@@ -20,7 +20,7 @@
     "static/js/7.57ae6f7b.chunk.js.map": "/portfolio/static/js/7.57ae6f7b.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.0a106155.chunk.css.map": "/portfolio/static/css/2.0a106155.chunk.css.map",
-    "static/css/main.d8afd120.chunk.css.map": "/portfolio/static/css/main.d8afd120.chunk.css.map",
+    "static/css/main.24b10907.chunk.css.map": "/portfolio/static/css/main.24b10907.chunk.css.map",
     "static/js/2.08224c7b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.08224c7b.chunk.js.LICENSE.txt",
     "static/media/SEBIN FRANCIS KANNAMPUZHA - Resume.0aa4060c.pdf": "/portfolio/static/media/SEBIN FRANCIS KANNAMPUZHA - Resume.0aa4060c.pdf",
     "static/media/animoji.d08eadb9.png": "/portfolio/static/media/animoji.d08eadb9.png",
@@ -47,7 +47,7 @@
     "static/js/runtime-main.d8fc9725.js",
     "static/css/2.0a106155.chunk.css",
     "static/js/2.08224c7b.chunk.js",
-    "static/css/main.d8afd120.chunk.css",
-    "static/js/main.a711e56d.chunk.js"
+    "static/css/main.24b10907.chunk.css",
+    "static/js/main.4c46e7c8.chunk.js"
   ]
 }
