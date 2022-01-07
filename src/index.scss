@@ -233,6 +233,9 @@ code {
   }
 }
 #projects{
+  .custom-dot-list-style{
+    padding-bottom: .2rem;
+  }
   .project-card{
     color: hsl(0, 0%, 20%); 
     width: 90%;
@@ -279,8 +282,9 @@ code {
         font-size: small;
       }
        &:hover{
-         background-color:#CF9FFF ;
-         color: black;
+        //  background-color:#CF9FFF ;
+        background-color: #9370DB;
+        //  color: black;
         // transform: scale(1.2);
        }
      }

@@ -11,11 +11,13 @@ const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 3000 },
-        items: 3
+        items: 3,
+        // slidesToSlide: 2
     },
     desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 3
+        items: 3,
+        // slidesToSlide: 2
     },
     tablet: {
         breakpoint: { max: 1024, min: 464 },
@@ -32,6 +34,7 @@ function project(project, i) {
     );
 }
 
+
 function Projects() {
 
     return (
@@ -42,7 +45,7 @@ function Projects() {
                     {projects.map(project)}
                 </div> */}
                 <Suspense fallback={<div>Loading...</div>}>
-                    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={20000} showDots={true}>
+                    <Carousel responsive={responsive} autoPlay={true} autoPlaySpeed={20000} showDots={true} dotListClass="custom-dot-list-style">
                         {projects.map(project)}
                     </Carousel>
                 </Suspense>
