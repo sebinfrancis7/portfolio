@@ -117,6 +117,7 @@ code {
     }
     img{
       height: 13rem;
+      padding: .1rem .3rem .1rem .1rem;
       @media screen and(max-width: $md){
         height: 80%;
       }

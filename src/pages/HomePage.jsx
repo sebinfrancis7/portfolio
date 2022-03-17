@@ -10,7 +10,7 @@ function HomePage() {
             <div className="inner-content">
                 <div className="justify-content-center animoji-image-div">
                     <div className="jusify-content-center text-center animoji-image">
-                        <img src={animoji} className="img-fluid center-block d-block mx-auto" alt="sebin francis" />
+                        <img src={animoji} className="border border-white rounded-circle" alt="sebin francis" />
                     </div>
                 </div>
                 <div className="text-center px-auto icon-div">
