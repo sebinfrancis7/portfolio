@@ -29,7 +29,7 @@ function HomePage() {
                     <div className="typewritter">
                         <Typewriter
                             options={{
-                                strings: ["Final Year CSE Student ...", "Aspiring Software Developer ...", "Technology Enthusiast ..."],
+                                strings: ["Open Source Contributer ...", "Aspiring Software Developer ...", "Technology Enthusiast ..."],
                                 autoStart: true,
                                 loop: true,
                                 delay: 70,
