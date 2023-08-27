@@ -28,28 +28,43 @@ const skills = [
 	},
 	{
 		id: 2,
-		name: "OOPS",
+		name: "Java",
 		percentage: 70
 	},
 	{
 		id: 3,
-		name: "MERN Stack Development",
-		percentage: 60
+		name: "HTML / CSS / Javascript",
+		percentage: 70
 	},
 	{
 		id: 4,
-		name: "Machine Learning",
+		name: "Spring Boot",
 		percentage: 50
 	},
 	{
 		id: 5,
-		name: "DBMS",
+		name: "NodeJS",
 		percentage: 60
 	},
 	{
 		id: 6,
-		name: "Data Science",
-		percentage: 30
+		name: "ReactJS",
+		percentage: 60
+	},
+	{
+		id: 7,
+		name: "Angular",
+		percentage: 60
+	},
+	{
+		id: 8,
+		name: "SQL",
+		percentage: 70
+	},
+	{
+		id: 9,
+		name: "NoSQL",
+		percentage: 60
 	}
 ];
 const projects = [
