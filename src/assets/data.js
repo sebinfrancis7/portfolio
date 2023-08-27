@@ -65,6 +65,11 @@ const skills = [
 		id: 9,
 		name: "NoSQL",
 		percentage: 60
+	},
+	{
+		id: 10,
+		name: "DevOps",
+		percentage: 50
 	}
 ];
 const projects = [
